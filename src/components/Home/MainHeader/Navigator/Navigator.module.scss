@@ -1,0 +1,19 @@
+.nav {
+  display: block;
+  position: relative;
+  
+  ul li a {
+    text-decoration: none;
+    position: absolute;
+   
+  }
+  li{
+    display: none;
+    
+
+  }
+  ul:hover li{
+    display: block;
+    cursor: pointer;
+  }
+}
