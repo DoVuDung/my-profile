@@ -1,19 +1,30 @@
 .nav {
   display: block;
-  position: relative;
-  
-  ul li a {
-    text-decoration: none;
-    position: absolute;
-   
-  }
-  li{
-    display: none;
-    
 
+  ul li a {
+    list-style-type: none;
+    text-decoration: none;
+    color:#000000;
   }
-  ul:hover li{
-    display: block;
-    cursor: pointer;
+  .nav__title{
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
   }
+
+  .nav__items{
+    line-height: 32px;
+    padding: 0 16px;
+  }
+
+  .nav__items:hover {
+    background: white;
+    border-radius: 10px;
+  }
+  
+
+  
+  
+
+ 
 }
